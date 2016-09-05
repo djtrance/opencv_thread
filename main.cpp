@@ -15,7 +15,7 @@ int screen=0;
 void *capture_video( void *ptr );
 void *capture_detecta_contorno( void *ptr );
 
-main()
+int  main()
 {
      pthread_t thread1, thread2;
      const char *message1 = "Thread 1";
